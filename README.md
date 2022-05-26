@@ -1,15 +1,22 @@
 # School District Analysis
 
 ## Overview
-The purpose of this analysis was to use code created for analysis of the entire school district's data and modify it to accomodate for recorded academic dishonesty from one of the high schools in the district. 
+The purpose of this analysis was to use code created for analysis of the entire school district's data and modify it to accomodate for recorded academic dishonesty from one of the high schools in the district, Thomas High School. 
 
 ## Results
 - How is the district summary affected?
+
+Below is the district summary from the original PyCitySchools analysis:
 ![pycityschools_district_summary](https://user-images.githubusercontent.com/101225282/169937536-98899139-e357-44b3-b3cd-878c2156b48d.png)
+Below is the district summary from the modified analysis for the challenge:
 ![pycityschoolschallenge_district_summary](https://user-images.githubusercontent.com/101225282/169937560-76069bd8-8b8d-4158-afaf-de4ea1b1eb79.png)
+We can see that there are marginal changes made to the district summary after replacing Thomas High School's ninth graders' math and reading scores with null values. The biggest change is the Overall Passing percentage value **decreased** from 65.17% to 64.9%.
 
 - How is the school summary affected?
+
+Below is the summary per school from the original PyCitySchools code: 
 ![pycityschools_per_school_summary](https://user-images.githubusercontent.com/101225282/169937817-07f5c043-22e7-419e-8886-c71a3305c056.png)
+Below is the summary per school from the modified analysis for the challenge:
 ![pycityschoolschallenge_per_school_summary](https://user-images.githubusercontent.com/101225282/169945640-5fcd69a3-8026-4254-98d6-6b5f6395fd6e.png)
 
 
